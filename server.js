@@ -36,7 +36,7 @@ app.get ('/', function (req, res) {
     <ul>
         <li>POST: Incluir um produto</li>
         <span>
-            &ensp;http://localhost:3000/api/produtos<br>
+            &ensp;https://plataforma-nodejs-exercicio-1.herokuapp.com/api/produtos<br>
             &ensp;Corpo da requisição:<br>
             &ensp;{<br>
                 &emsp;"id": Identificador do produto,<br>
@@ -47,15 +47,15 @@ app.get ('/', function (req, res) {
         </span>
         <li>GET: Obter a lista de produtos</li>
         <span>
-            &ensp;http://localhost:3000/api/produtos<br>
+            &ensp;https://plataforma-nodejs-exercicio-1.herokuapp.com/api/produtos<br>
         </span>
         <li>GET by Id: Obter um produto específico</li>
         <span>
-            &ensp;http://localhost:3000/api/produtos/id<br>
+            &ensp;https://plataforma-nodejs-exercicio-1.herokuapp.com/api/produtos/id<br>
         </span>
         <li>PUT: Alterar um produto</li>
         <span>
-            &ensp;http://localhost:3000/api/produtos/id<br>
+            &ensp;https://plataforma-nodejs-exercicio-1.herokuapp.com/api/produtos/id<br>
             &ensp;Corpo da requisição:<br>
             &ensp;{<br>
                 &emsp;"descricao": "Nova descrição do produto",<br>
@@ -65,7 +65,7 @@ app.get ('/', function (req, res) {
         </span>
         <li>DELETE: Excluir um produto</li>
         <span>
-            &ensp;http://localhost:3000/api/produtos/id<br>
+            &ensp;https://plataforma-nodejs-exercicio-1.herokuapp.com/api/produtos/id<br>
         </span>
     </ul>
     `)
