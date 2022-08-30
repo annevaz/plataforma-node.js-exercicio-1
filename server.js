@@ -156,6 +156,8 @@ app.delete('/api/produtos/:id', (req, res) => {
 });
 
 // Inicializa o servidor HTTP na porta 3000
-app.listen (3000, function () {
-    console.log ('Servidor rodando na porta 3000');
+const port = process.env.PORT || 3000;
+
+app.listen (port, function () {
+    console.log('Servidor rodando.');
 });
